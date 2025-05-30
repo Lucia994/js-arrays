@@ -10,10 +10,11 @@ const teachers = [
 
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
-const fourthTeacher = teachers[3]; //Glia array contano da 0, quindi il quarto insegnante è il numero 3
+const fourthTeacher = teachers[3]; //Gli array contano da 0, quindi il quarto insegnante è il numero 3
 console.log(fourthTeacher);//Outuput: Phil
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
+teachers[4] = "Patrick"; //modifica il valore e scrivi tra parentesi [] il numero dell'item da sostituire
 
 // Ricorda che trattandosi di una stringa devi inserire i nomi nelle virgolette
 
