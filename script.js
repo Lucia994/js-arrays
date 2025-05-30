@@ -22,13 +22,19 @@ console.log(teachers); //Output: ["Nathan", "Ed", "Fabio", "Phil", "Patrick", "L
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
 const lastTeacher =  "Luca";
 teachers.pop(); // Output: ["Nathan", "Ed", "Fabio", "Phil", "Patrick", "Lewis"]
+console.log(teachers);
 
 // metodo pop elimina l'ultimo item dell'array e non ha bisogno di parametri
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-const firstTeacher = "null";
+const firstTeacher = "Nathan";
+teachers.shift(); // Output: ["Ed", "Fabio", "Phil", "Patrick", "Lewis"]
+console.log(teachers);
+
+// metodo shift rimuove il primo item dell'array e non ha bisogno di parametri
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
+
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
