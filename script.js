@@ -34,7 +34,7 @@ console.log(teachers);
 // metodo shift rimuove il primo item dell'array e non ha bisogno di parametri
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
-
+teachers.push("Vanessa"); // metodo push aggiunge alla fine dell'array l'item (l'item va inserito nelle parentesi)
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
