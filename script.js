@@ -15,11 +15,15 @@ console.log(fourthTeacher);//Outuput: Phil
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 teachers[4] = "Patrick"; //modifica il valore e scrivi tra parentesi [] il numero dell'item da sostituire
+console.log(teachers); //Output: ["Nathan", "Ed", "Fabio", "Phil", "Patrick", "Lewis", "Luca"]
 
 // Ricorda che trattandosi di una stringa devi inserire i nomi nelle virgolette
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = "null";
+const lastTeacher =  "Luca";
+teachers.pop(); // Output: ["Nathan", "Ed", "Fabio", "Phil", "Patrick", "Lewis"]
+
+// metodo pop elimina l'ultimo item dell'array e non ha bisogno di parametri
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = "null";
