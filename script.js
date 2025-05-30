@@ -34,12 +34,16 @@ console.log(teachers);
 // metodo shift rimuove il primo item dell'array e non ha bisogno di parametri
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
-teachers.push("Vanessa"); // metodo push aggiunge alla fine dell'array l'item (l'item va inserito nelle parentesi)
+teachers.push("Vanessa"); // Output: ["Ed", "Fabio", "Phil", "Patrick", "Lewis", "Vanessa"]
 console.log(teachers);
 
+// metodo push aggiunge alla fine dell'array l'item (l'item va inserito nelle parentesi)
+
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
-teachers.unshift("Sarah"); // metodo unshift aggiunge all'inizio  dell'array l'item (l'item va inserito nelle parentesi)
+teachers.unshift("Sarah"); // Output: ["Sarah","Ed", "Fabio", "Phil", "Patrick", "Lewis", "Vanessa"]
 console.log(teachers);
+
+// metodo unshift aggiunge all'inizio  dell'array l'item (l'item va inserito nelle parentesi)
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
